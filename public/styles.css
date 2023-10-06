@@ -38,6 +38,9 @@
       color: #777;
       font-weight: 300;
     }
+    nav a:hover{
+      color: #030202;
+    }
     footer{
       color: #777;
       text-align: center;
@@ -52,6 +55,16 @@
     }
     .content{
       margin-left: 20px;
+      
+    }
+    .not-found {
+      color: rgb(0, 0, 0);
+      display: flex;
+      justify-content: center;
+    }
+    .not-found-img{
+      width: 35%;
+      aspect-ratio: 1;
     }
 
     /* index styles */
@@ -59,10 +72,10 @@
       display: block;
       margin: 40px 0;
       padding-left: 30px;
-      border-left: 6px solid crimson;
+      border-left: 6px solid rgb(40, 89, 249);
     }
     .blogs a:hover h3{
-      color: crimson;
+      color:  rgb(40, 89, 249);
     }
 
     /* details styles */
@@ -102,10 +115,11 @@
     }
     .create-blog button{
       margin-top: 20px;
-      background: crimson;
+      background: rgb(40, 89, 249);
       color: white;
       padding: 6px;
       border: 0;
       font-size: 1.2em;
       cursor: pointer;
+      border-radius: 10px 10px 10px 10px;
     }
